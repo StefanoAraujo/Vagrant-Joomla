@@ -3,8 +3,6 @@
 - <a href="http://cygwin.com/install.html">Cygwin</a> (dont forget to install git and ssh packages)<br />
 - <a href="http://www.vagrantup.com/downloads.html">Vagrant</a><br />
 - <a href="https://www.virtualbox.org/wiki/Downloads">Virtual box</a><br />
-- <a href="http://git-scm.com/downloads">Git bash</a>
-
 
 <b>Instructions:</b>
 
