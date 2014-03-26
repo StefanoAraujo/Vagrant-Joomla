@@ -9,7 +9,7 @@
 <b>Instructions:</b>
 
 - git clone https://github.com/guidsen/Vagrant-Joomla.git
-- ssh into your vagrant box 
+- ssh into your vagrant box (cmd: vagrant ssh)
 - sudo apt-get install phpmyadmin
 - echo -e "Include /etc/phpmyadmin/apache.conf" | sudo tee -a /etc/apache2/apache2.conf
 - sudo service apache2 restart
