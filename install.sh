@@ -41,6 +41,10 @@ echo "--- What developer codes without errors turned on? Not you, master. ---"
 sed -i "s/error_reporting = .*/error_reporting = E_ALL/" /etc/php5/apache2/php.ini
 sed -i "s/display_errors = .*/display_errors = On/" /etc/php5/apache2/php.ini
 
+# change default upload values to 500MB
+sed -i "s/post_max_size = .*/post_max_size = 500M/" /etc/php5/apache2/php.ini
+sed -i "s/upload_max_filesize = .*/upload_max_filesize = 500M/" /etc/php5/apache2/php.ini
+
 sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
 
 echo "--- Composer is the future. But you knew that, did you master? Nice job. ---"
